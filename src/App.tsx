@@ -8,6 +8,8 @@ import Home from "./pages/Home"
 import { UserContext } from "./UserContext"
 import { User } from "./utils/login"
 
+interface a {}
+
 function App() {
   const [user, setUser] = React.useState<User | null>(null)
 
